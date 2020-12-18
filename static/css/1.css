@@ -246,7 +246,7 @@ body {
 
 .project-item {
   margin: 10px;
-  width: 30vw; /* 44vw for quad */
+  width: 30vw;  /* 44vw for quad */
   position: relative;
   text-align: center;
   border-radius: 5px;
@@ -379,219 +379,16 @@ footer {
   background: #57606f;
 }
 
+
 /* TEST START */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  /* Section One */
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {...}
 
-  #intro {
-    top: 30%;
-    float: left;
-    width: 75vw;
-    padding: 1em;
-    margin-left: 2vw;
-    position: absolute;
-  }
-
-  #greeting {
-    font-size: 65px;
-    width: fit-content;
-    margin-bottom: 15px;
-  }
-
-  #name {
-    font-size: 45px;
-    width: fit-content;
-    margin-bottom: 10px;
-  }
-
-  #tagline {
-    font-size: 20px;
-  }
-
-  /* Social Media Bar */
-
-  .sm-item {
-    margin: 0.1em;
-    width: fit-content;
-    text-align: center;
-  }
-
-  .fa {
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    font-size: 21px;
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
-
-    background: transparent;
-    color: white;
-  }
-
-  /* Skill Section Flex Boxes*/
-
-  .skill-item {
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.002);
-  }
-
-  .skill-txt {
-    margin: 0;
-    font-size: 13px;
-    margin-top: 0.5em;
-  }
-
-  /* Section Two */
-
-  .heading {
-    font-size: 22px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: #2c2b2c;
-  }
-
-  .text-two {
-    width: 90vw;
-    margin: auto;
-    font-size: 15px;
-    word-spacing: 2.5px;
-    line-height: 1.6;
-    color: #2c2b2c;
-  }
-
-  /* Project Section Flex Boxes*/
-
-  .project-item {
-    margin: 10px;
-    width: 90vw; /* 44vw for quad */
-    position: relative;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.322);
-  }
-
-  .project-txt {
-    width: 90%;
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  /* Review Section Flex Boxes */
-
-  .review-item {
-    width: 90vw;
-    background-color: #ffffff;
-  }
-
-  .review-txt {
-    margin: 0;
-    padding: 1em;
-    font-size: 15px;
-    line-height: 1.6;
-    color: #2c2b2c;
-    text-align: center;
-    padding-top: 0.5em;
-    padding-bottom: 0em;
-  }
-
-  .reviewer-name {
-    padding: 0.2em;
-    font-size: 13px;
-    text-align: right;
-    color: #2c2b2c;
-  }
-
-  .reviewer-title {
-    padding: 0.2em;
-    font-size: 12px;
-    text-align: right;
-    color: #2c2b2c;
-  }
-
-  .flag {
-    padding: 0.1em;
-    font-size: 20px;
-    line-height: 90%;
-    text-align: right;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* Social Media Bar */
-
-  .sm-item {
-    margin: 0.1em;
-    width: fit-content;
-    text-align: center;
-  }
-
-  .fa {
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    font-size: 21px;
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
-
-    background: transparent;
-    color: white;
-  }
-
-  /* Section Two */
-
-  .heading {
-    font-size: 23px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: #2c2b2c;
-  }
-
-  .text-two {
-    width: 77vw;
-    margin: auto;
-    font-size: 17px;
-    word-spacing: 2.5px;
-    line-height: 1.6;
-    color: #2c2b2c;
-  }
-
-  /* Project Section Flex Boxes*/
-
-  .project-item {
-    margin: 10px;
-    width: 44vw; /* 44vw for quad */
-    position: relative;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.322);
-  }
-
-  .project-txt {
-    width: 90%;
-    color: white;
-    font-size: 15px;
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {...}
