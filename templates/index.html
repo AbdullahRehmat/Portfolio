@@ -1,0 +1,212 @@
+{% extends "layout.html" %} {% block title %} Abdullah Rehmat {% endblock %} {%
+block body %}
+<section id="introduction" class="one">
+  <div id="intro">
+    <div id="greeting" class="blinking">Hi</div>
+    <div id="name">I'm Abdullah Rehmat</div>
+    <div id="tagline">A Full Stack Developer...</div>
+  </div>
+
+  <div class="sm-container">
+    <div class="sm-item">
+      <a
+        href="https://twitter.com/ARehmat20"
+        class="fa fa-twitter"
+        target="_blank"
+      ></a>
+    </div>
+    <div class="sm-item">
+      <a
+        href="https://www.linkedin.com/in/abdullahrehmat/"
+        class="fa fa-linkedin"
+        target="_blank"
+      ></a>
+    </div>
+    <div class="sm-item">
+      <a
+        href="https://github.com/AbdullahRehmat"
+        class="fa fa-github"
+        target="_blank"
+      ></a>
+    </div>
+    <div class="sm-item">
+      <a
+        href="mailto:10CodeDevelopment@gmail.com"
+        class="fa fa-envelope"
+        target="_blank"
+      ></a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="two">
+  <div class="boxtwo">
+    <div class="heading">About Me:</div>
+    <div class="text-two">
+      Founder of <span class="highlight"> 10Code Development </span> & full
+      stack developer based in London/Riyadh.
+      <br />
+      I specialize in designing, developing, and delivering custom web &
+      software solutions, mainly with Python. If you have specific requirements
+      for a project or idea than lets have a chat.
+      <br />
+      Currently I work remotely on projects for clients from all around the
+      world.
+      <br />
+      I turn ideas into reality - on time and on budget.
+    </div>
+  </div>
+</section>
+
+<section id="skill" class="two">
+  <div class="boxtwo">
+    <div class="heading">Skills:</div>
+    <div class="skill-container" id="skill-table">
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/html.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">HTML</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/css.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">CSS</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/javascript.svg')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">JavaScript</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/python.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">Python</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/git.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">Git + Github</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/docker.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">Docker</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/postgresql.webp')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">PostgreSQL</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/vscode.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">VS Code</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/pycharm.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">PyCharm</p>
+      </div>
+      <div class="skill-item">
+        <img
+          src="{{url_for('static', filename='images/photoshop.png')}}"
+          class="skill-image"
+        />
+        <p class="skill-txt">Photoshop</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="two">
+  <div class="boxtwo">
+    <div class="heading">Recent Projects:</div>
+
+    <div class="project-container">
+      <div class="project-item">
+        <img
+          src="{{url_for('static', filename='images/10CDProjectIMG.webp')}}"
+          class="project-image"
+        />
+        <div class="project-overlay">
+          <p class="project-txt">
+            10Code Development <br /><br />
+            Founder
+            <br />
+            <br />
+            Founded a web & software development studio based in London/Riyadh
+            that creates fast, modern, responsive websites & software
+          </p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img
+          src="{{url_for('static', filename='images/PertinentOpsProjectIMG.webp')}}"
+          class="project-image"
+        />
+        <div class="project-overlay">
+          <p class="project-txt">
+            Pertinent Ops Hosting <br /><br />
+            Freelance Developer
+            <br /><br />
+            Consulting, Design, Copywriting
+          </p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img
+          src="{{url_for('static', filename='images/PolitiProjectIMG.webp')}}"
+          class="project-image"
+        />
+        <div class="project-overlay">
+          <p class="project-txt">
+            Politi <br /><br />
+            Technical Lead Developer
+            <br /><br />
+            Used Python and SQL to create data analysis software and a Web App
+            capable of handling 5+ million hits per day
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="two">
+  <div class="boxtwo">
+    <div class="heading">Testimonials</div>
+    <div class="review-container">
+      <div class="review-item">
+        <p class="review-txt">
+          The best experience I’ve had with any developer, hands down. I would
+          recommend Abdullah to people who need a talented, driven, and
+          client-first full stack developer to help their ideas come to life.
+        </p>
+
+        <div class="reviewer-name">Ari Salsberg</div>
+        <div class="reviewer-title">Founder, Politi</div>
+        <div class="flag">🇺🇸</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

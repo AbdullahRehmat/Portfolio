@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/aaf0cd5275.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" type="image/png" href={{ url_for('static',
+    filename='images/favicon.ico') }}/>
+    <title>{% block title %} {% endblock %}</title>
+  </head>
+  <body>
+    {% block body %} {% endblock %}
+  </body>
+  <footer>
+    <div id="footer-txt">
+      Abdullah Rehmat 2020 &#169;
+      <br />
+      10CodeDevelopment@gmail.com
+    </div>
+  </footer>
+</html>
