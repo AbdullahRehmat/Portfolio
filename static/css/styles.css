@@ -98,16 +98,15 @@ body {
   align-items: stretch;
   align-content: center;
   justify-content: center;
-
-  padding: 5px;
-
+  padding-bottom: 0.5em;
+  padding-right: 0.75em;
   bottom: 0;
   right: 0;
   position: absolute;
 }
 
 .sm-item {
-  margin: 0.1em;
+  margin: 0.05em;
   width: fit-content;
   text-align: center;
 }
