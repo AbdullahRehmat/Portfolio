@@ -16,19 +16,18 @@ body {
 
 .theme-light {
   --fixed-color: #ffffff;
-  --general-color: #2c2b2c;
+  --general-color: #161618;
   --background-color: #ffffff;
   --skills-background: #ffffff;
   --skills-hover: #efefef;
-
 }
 
 .theme-dark {
   --fixed-color: #ffffff;
   --general-color: #ffffff;
-  --background-color: #2b2c2c;
-  --skills-background: #383838;
-  --skills-hover: #1e1e1e;
+  --background-color: #161618;
+  --skills-background: #212124;
+  --skills-hover: #2c2b2c;
 }
 
 /* Section One */
@@ -38,7 +37,7 @@ body {
   color: var(--heading-color);
   position: relative;
   background-size: cover;
-  background: linear-gradient(to bottom right, #000000 0%, #414141 83%);
+  background: linear-gradient(to bottom right, #000000 0%, #2c2b2c 100%);
 }
 
 #intro {
