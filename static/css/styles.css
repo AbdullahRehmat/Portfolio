@@ -4,6 +4,7 @@ html {
   height: 100%;
   scroll-behavior: smooth;
   font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--general-color);
   background-color: var(--background-color);
 }
@@ -47,6 +48,7 @@ body {
   padding: 1em;
   margin-left: 3vw;
   position: absolute;
+  font-family: "Roboto", sans-serif;
 }
 
 #greeting {
@@ -133,6 +135,7 @@ body {
   min-height: 20vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
+  text-align: center;
 }
 
 .boxtwo {
@@ -141,21 +144,23 @@ body {
   min-height: 20vh;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 .heading {
   font-size: 25px;
   padding-top: 1%;
   padding-bottom: 1%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-two {
-  width: 55vw;
+  width: 65vw;
   margin: auto;
   font-size: 20px;
   word-spacing: 2.5px;
   line-height: 1.6;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .highlight {
@@ -299,12 +304,12 @@ body {
 /* CSS for Footer Section*/
 footer {
   margin: 0;
-  padding: 0;
   height: 10vh;
-  font-size: 15px;
+  padding: 0.5em;
+  font-size: 13px;
   margin-top: 5em;
   position: relative;
-  color: #ffffff;
+  color: #f5f5f5;
   background-color: #000000;
 }
 
